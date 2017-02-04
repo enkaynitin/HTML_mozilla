@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Simple video example</title>
+	</head>
+	<body>
+		<h1>Below is a video example</h1>
+		<video controls width="400"height="400"
+			loop muted
+			poster="learn.png">
+			
+			<source src="guitar.webm" controls>
+			
+			<p>Your browser doesn't support HTML video. Here is a <a href="guitar.webm">link to the video</a> instead.</p>
+		</video>
+		
+		<h1>
+			Below is an audio player that will pay in all modern browsers"</h1>
+			
+		<audio controls>
+			<source src="ukulele.mp3" type="audio/mp3">
+			<source src="ukulele.ogg" type="audio/ogg">
+			<p>Your browser doesn't support HTML audio. Here is a <a href="ukulele.mp3">link to the audio</a> instead.</p>
+		</audio>
+		
+		
+		<iframe src="https://developer.mozilla.org/en-US/docs/Glossary"
+        		width="100" height="500" frameborder="0"
+        		allowfullscreen sandbox>
+        </iframe>	
+				
+				<p> <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+	    		Fallback link for browsers that don't support iframes
+  				</a> </p>
+  				
+  				
+
+	</body>
+</html>

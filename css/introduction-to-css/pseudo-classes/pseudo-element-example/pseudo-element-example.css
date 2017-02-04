@@ -1,0 +1,6 @@
+/* All elements with an attribute "href", which values
+  start with "http", will be added an arroe after its
+  content (to indicate it's an external link) */
+[href^=http]::after {
+  content: '⤴';
+}
