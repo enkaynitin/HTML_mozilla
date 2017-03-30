@@ -1,0 +1,15 @@
+order of precedence
+
+element, class, ID, !important
+
+class and Id are defined in the element tag, eg 
+
+<p class="better" id="winning">paragrapgh</p>
+
+p {       /* is an element selector */
+
+}
+
+.better   /* is a class selector */
+
+#winning  /* is an id selector */
